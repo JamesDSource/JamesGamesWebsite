@@ -1,0 +1,131 @@
+@font-face {
+  src: url(Fonts/lunchds.ttf);
+  font-family: lunch;
+}
+* {
+  margin: 0;
+}
+html {
+  background-image: url(images/background.png);
+  text-align: center;
+  font-family: lunch;
+  text-shadow: 0 2px black;
+}
+
+nav {
+  //margin: 32px;
+  line-height: 64px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+}
+nav h1 {
+  float: left;
+  font-size: 38px;
+  color: rgb(120, 140, 180);
+}
+header {
+  color: rgb(255, 255, 255);
+  padding: 0px 5px;
+  display: inline-block;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+h4 {
+  padding: 13px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 16;
+  color: rgb(200, 200, 200);
+  margin: 10px;
+  padding: 5px;
+}
+footer {
+  color: white;
+  margin-top: 20px;
+}
+
+ul {
+  display: inline-flex;
+  line-height: 64px;
+  background-color: rgb(200, 200, 220);
+}
+ul li {
+  list-style: square;
+}
+ul li a{
+  display: inline-block;
+  margin: 0px 20px;
+  font-size: 22px;
+  color: rgb(100, 100, 100);
+  line-height: 24px;
+}
+ul li a:hover {
+  color: rgb(110, 130, 200);
+}
+
+ul li a.onPage {
+  color: rgb(120, 180, 255);
+}
+
+ul li a:hover.onPage {
+  color: rgb(200, 50, 50);
+}
+
+.title {
+  background-color: rgb(230, 230, 230);
+  line-height: 20px;
+}
+
+.content {
+  background-color: rgb(100, 110, 140);
+  margin-left: 100px;
+  margin-right: 100px;
+  float: center;
+}
+
+.links {
+  padding: 0px 0px;
+  margin-top: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: rgb(200, 200, 230);
+}
+
+.download {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.headerImage {
+  float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+div h4 {
+  color: rgb(110, 150, 230);
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+div h6 {
+  color: rgb(215, 215, 215);
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+div p{
+  font-size: 18px;
+  padding: 10px 15%;
+  color: rgb(200, 200, 200);
+}
+
+div img {
+  padding: 5px;
+  background-color: white;
+}
