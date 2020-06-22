@@ -13,7 +13,7 @@ var downloads = new link("Downloads", "downloads")
 var blogs = new link("Blogs", "blogs")
 var contact = new link("Contact Me", "contact")
 
-var links = [home, games, browser_games, confetti, downloads, blogs, contact];
+var links = [home, games, downloads];
 
 document.writeln("<nav>");
 document.writeln("<a href=\"http://www.jamesvideogames.com/\"><img src=\"images\\logo.png\" alt=\"\" class=\"headerImage\"></a>");

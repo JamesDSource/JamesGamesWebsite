@@ -12,14 +12,21 @@ var moldy = new post(
   "downloads"
 );
 
+var dungeonDog = new post(
+  "Dungeon Dog for Download",
+  "dungeonDog.png",
+  "It's complete, neat, and ready to eat.",
+  "downloads"
+);
+
 var confetti = new post(
   "Confetti Engine",
   "confettiGithub.PNG",
   "The scala game engine, Confetti has started development. Exciting things to come.",
   "confetti"
-)
+);
 
-var posts = [moldy, confetti];
+var posts = [moldy, dungeonDog];
 document.writeln("<div class = \"content\">");
 for(var i = posts.length-1; i >= 0; i--) {
   var current_post = posts[i];

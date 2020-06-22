@@ -46,7 +46,15 @@ var moldy = new Entry(
   true
 );
 
-var entries = [belowZero, jumpy, venom, frightAtTheMuseum, moldy];
+var dungeonDog = new Entry(
+  "Dungeon Dog",
+  "Dungeon Dog was created as part of a 3 day game jam. I'm very proud of how much we were able to cram into this one. It has random level generation, a palette swapper, and a lot of enemies/platforming challenges.",
+  "Co-created with Nate \"Grazurra\" Windmeyer.",
+  "dungeonDog.png",
+  true
+);
+
+var entries = [belowZero, jumpy, venom, frightAtTheMuseum, moldy, dungeonDog];
 document.writeln("<div class=\"content\">");
 for(var i = 0; i < entries.length; i++) {
   var entrie = entries[i];

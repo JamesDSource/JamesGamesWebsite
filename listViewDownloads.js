@@ -11,33 +11,43 @@ function mouseOver(img) {
   img.src="images/downloadButtonPressed.gif";
 }
 
-var jumpy_windows = new Download (
+var jumpy = new Download (
   "Jumpy",
   "Windows",
   "JumpyWindows.zip"
 );
-var jumpy_ubuntu = new Download (
-  "Jumpy",
-  "Ubuntu",
-  "#"
-);
+
 var ghostGame = new Download(
   "Fright at the Museum",
   "Windows",
   "GhostGame.zip"
 );
+
 var venom = new Download(
   "Venomous",
   "Windows",
   "Venomous.zip"
 );
+
 var moldy = new Download(
   "Moldy",
   "Windows",
   "Moldy.zip"
 );
 
-var downloads = [jumpy_windows, jumpy_ubuntu, ghostGame, venom, moldy];
+var dungeonDog = new Download(
+  "Dungeon Dog",
+  "Windows",
+  "DungeonDog.zip"
+);
+
+var threader = new Download(
+  "Threader",
+  "Windows",
+  "Threader.zip"
+);
+
+var downloads = [jumpy, ghostGame, venom, moldy, dungeonDog, threader];
 for(var i = 0; i < downloads.length; i++) {
     download = downloads[i];
     document.writeln("<div class=\"content\">");
